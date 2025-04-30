@@ -1,7 +1,10 @@
+import axios from 'axios';
 import React from 'react'
 
 const ProductCard = ({ title, price, OnSale }) => {
   const discountPrice = (price * 0.6); // 40% OFF
+
+
 
   return (
     <div className="w-64 p-4 bg-white rounded-xl shadow-md border">
